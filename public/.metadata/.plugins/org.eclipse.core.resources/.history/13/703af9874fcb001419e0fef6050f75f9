@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+
+app.service('serviceHttp', function(){
+	this.post= function(url,data,callback){
+		var req = {
+				 method: 'POST',
+				 url: '/usersTST',
+				 headers: {
+				   'Content-Type': undefined
+				 },
+				 data: { name: 'Bulboaca Emanuel' },
+				}
+
+				$http(req).success(function(){
+					
+				}).error(function(){
+					
+				});
+	}
+});

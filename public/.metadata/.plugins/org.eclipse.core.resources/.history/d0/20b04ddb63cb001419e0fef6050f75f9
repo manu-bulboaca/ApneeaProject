@@ -1,0 +1,27 @@
+<div class="scrollable" style="background-color: white">  
+  <div class="scrollable-content">
+
+    <div class="list-group text-center">
+      <div class="list-group-item list-group-item-home">
+        <h1>Welcome to the Apneea Medical Application
+        </h1>
+      </div>
+      
+    </div>
+    <div class="list-group-item">
+      <h2>Users:</h2>
+      </div>
+    
+    <div class="list-group">
+    	<div class="list-group-item" ng-repeat="item in users">
+    		{{item.name}}
+    		<br> 
+    		<b>Address:</b> {{item.address}}
+    		<br>
+    		Email: {{item.email}}
+    	</div>
+    </div>
+    
+
+  </div>
+</div>

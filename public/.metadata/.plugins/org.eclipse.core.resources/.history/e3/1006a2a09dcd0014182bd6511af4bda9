@@ -1,0 +1,4 @@
+app.controller('insertMachineController', function($rootScope, $scope, $http,
+		serviceHttp) {
+	
+});

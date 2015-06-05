@@ -1,0 +1,176 @@
+<div ui-content-for="title">
+	<span>Graphs</span>
+</div>
+
+<div class="scrollable">
+	<div class="scrollable-content section">
+
+		<div class="list-group-item row">
+			<div class="col-sm-8 col-xs-12">
+				<h3>Detailed informations about {{userNameSelected}}</h3>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<button type="button" class="btn btn-default dropdown-toggle pull-right" ng-click="collapse=!collapse" style="margin-bottom: 15px">
+					Change Patient
+				</button>
+			</div>
+
+		</div>
+
+		<div class="list-group-item" ng-show=collapse>
+			<label>Patient</label><select class="form-control" style="width:250px"
+			ng-model="userSelected"
+			ng-options="item.name for item in usersSelect"
+			></select>
+			<button class="btn btn-default" style="margin-top: 15px" ng-click="userClick(); collapse=!collapse">
+				Create Graph
+			</button>
+		</div>
+
+		<div class='section'>
+			<ui-state id='activeTab' default='1'></ui-state>
+
+			<ul class="nav nav-tabs">
+				<li ui-class="{'active': activeTab == 1}">
+					<a ui-set="{'activeTab': 1}">30 Days</a>
+				</li>
+				<li ui-class="{'active': activeTab == 2}">
+					<a ui-set="{'activeTab': 2}">All time</a>
+				</li>
+				<li ui-class="{'active': activeTab == 3}">
+					<a ui-set="{'activeTab': 3}">Detailed</a>
+				</li>
+			</ul>
+
+			<div ui-if="activeTab == 1">
+				<h3 class="page-header">30 Days</h3>
+				<p>
+					<div class="row">
+						<div class="col-md-6">
+
+							<div ng-controller="Pie30Ctrl">
+								<nvd3-pie-chart
+								data="pieData30"
+								id="pie30"
+								width="550"
+								height="250"
+								margin="{left:10,top:10,bottom:10,right:10}"
+								x="xFunction()"
+								y="yFunction()"
+								showLabels="true"
+								tooltips="true"
+								tooltipcontent="toolTipContentFunction()"
+								color="colorFunction()">
+									<svg height="250"></svg>
+								</nvd3-pie-chart>
+							</div>
+
+						</div>
+
+						<div class="col-md-6" style="padding: 40px">
+							<table class="table table-hover table-bordered">
+								<tbody>
+									<tr>
+										<td>Used Well:</td>
+										<td>{{usedWell30}}</td>
+									</tr>
+									<tr>
+										<td>Unused:</td>
+										<td>{{unused30}}</td>
+									</tr>
+									<tr>
+										<td>Used Wrong:</td>
+										<td>{{usedWrong30}}</td>
+									</tr>
+								</tbody>
+							</table>
+
+						</div>
+
+						<div class="col-md-12" ng-controller="Line30Ctrl">
+
+							<div style="overflow-x: auto">
+								<div id="timeline" style="{{variableWidthAll}}; height:180px"></div>	
+							</div>
+						</div>
+					</div>
+				</p>
+			</div>
+
+			<div ui-if="activeTab == 2">
+				<h3 class="page-header">One year</h3>
+				<p>
+					<div class="row">
+						<div class="col-md-6">
+
+							<div ng-controller="PieAllCtrl">
+								<nvd3-pie-chart
+								data="pieDataAll"
+								id="pieAll"
+								width="550"
+								height="250"
+								margin="{left:10,top:10,bottom:10,right:10}"
+								x="xFunction()"
+								y="yFunction()"
+								showLabels="true"
+								tooltips="true"
+								tooltipcontent="toolTipContentFunction()"
+								color="colorFunction()">
+									<svg height="250"></svg>
+								</nvd3-pie-chart>
+							</div>
+
+						</div>
+
+						<div class="col-md-6" style="padding: 40px">
+							<table class="table table-hover table-bordered">
+								<tbody>
+									<tr>
+										<td>Used Well:</td>
+										<td>{{usedWellAll}}</td>
+									</tr>
+									<tr>
+										<td>Unused:</td>
+										<td>{{unusedAll}}</td>
+									</tr>
+									<tr>
+										<td>Used Wrong:</td>
+										<td>{{usedWrongAll}}</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						
+						<div class="col-md-12" ng-controller="LineAllCtrl">
+							<div style="overflow-x: auto">
+								<div id="timeline" style="{{variableWidthAll}}; height:180px"></div>	
+							</div>
+							
+						</div>
+					</div>
+				</p>
+			</div>
+
+			<div ui-if="activeTab == 3">
+				<h3 class="page-header">All time</h3>
+				<p>
+					<div ng-controller="FullGraph">
+						<div id="chartdiv" style="width: 100%; height:500px"></div>
+					</div>
+				</p>
+			</div>
+
+			<div class="btn-group justified nav-tabs">
+				<a ui-set="{'activeTab': 1}"
+				ui-class="{'active': activeTab == 1}" class="btn btn-default">30 Days</a>
+
+				<a ui-set="{'activeTab': 2}"
+				ui-class="{'active': activeTab == 2}" class="btn btn-default">One year</a>
+
+				<a ui-set="{'activeTab': 3}"
+				ui-class="{'active': activeTab == 3}" class="btn btn-default">All time</a>
+			</div>
+		</div>
+
+	</div>
+</div>

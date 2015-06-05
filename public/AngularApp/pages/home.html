@@ -1,0 +1,39 @@
+<div class="scrollable" style="background-color: white">
+	<div class="scrollable-content">
+
+		<div class="list-group text-center">
+			<div class="list-group-item list-group-item-home">
+				<h1>Welcome to the Apneea Medical Application </h1>
+			</div>
+
+		</div>
+		<div class="list-group-item">
+			<h2>Patients:</h2>
+		</div>
+
+		<div class="list-group">
+
+			<div class="list-group-item" style=>
+				<input type="text" class="form-control" ng-model="search.name"  placeholder="Search">
+			</div>
+
+			<div class="list-group-item row" ng-repeat="item in users | filter:search" >
+				<div class="col-xs-8">
+					{{item.name}}
+
+					<br>
+					<b>Address:</b> {{item.address}}
+					<br>
+					<b>Email:</b> {{item.email}}
+				</div>
+				<div class="col-xs-4" style="color: #007aff" ng-click="selectUser(item)">
+					<div class="pull-right btn">
+						More details
+						<i class="fa fa-line-chart"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>

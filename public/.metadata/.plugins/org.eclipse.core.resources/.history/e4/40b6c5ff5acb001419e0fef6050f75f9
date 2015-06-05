@@ -1,0 +1,41 @@
+/**
+ * 
+ */
+
+app.service('serviceHttp', function($http){
+	this.post= function(url,data,callback){
+		var req = {
+				 method: 'POST',
+				 url: '/usersTST',
+				 headers: {
+				   'Content-Type': undefined
+				 },
+				 data: { name: 'Bulboaca Emanuel' },
+				}
+
+				$http(req).success(function(data,status){
+					console.log(data);
+					console.log(status);
+					callback(data)
+				}).error(function(){
+					
+				});
+	}
+	this.get= function(url,callback){
+		var req = {
+				 method: 'GET',
+				 url: url,
+				 headers: {
+				   'Content-Type': undefined
+				 },
+				}
+
+				$http(req).success(function(data, status){
+					console.log(data);
+					console.log(status);
+					callback(data);
+				}).error(function(){
+					
+				});
+	}
+});

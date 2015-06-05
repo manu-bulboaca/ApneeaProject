@@ -1,0 +1,28 @@
+app.controller('insertMachineController', function($rootScope, $scope, $http,
+		serviceHttp) {
+	$scope.usersSelect = [];
+	$scope.usersSelect.push({name: "select user"});
+	serviceHttp.get("/usersTST", function(json) {
+		console.log(json.length);
+		for (var i = 0; i < json.length; i++) {
+			console.log(json[i]);
+			$scope.usersSelect.push(json[i]);
+			console.log("USER " + $scope.usersSelect[i].name)
+		}
+	});
+	
+	$scope.insertMachine() = function(){
+		console.log("insert machine");
+		console.log($scope.desc,$scope.userSelected)
+
+//		if ($scope.name == undefined || $scope.address == undefined){
+//			console.log("undefined")
+//		} else {
+//			 serviceHttp.post("/usersTST",'[{"name": "' + $scope.name + '", "email": "' + $scope.email 
+//					 + '", "address": "'+ $scope.address +'"}]', function(json){
+//				 console.log(json)
+//			 })
+//		}
+	}
+	
+});

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>ApneeaApp</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="yes" />
+
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="dist/css/mobile-angular-ui-hover.min.css" />
+		<link rel="stylesheet" href="dist/css/mobile-angular-ui-base.min.css" />
+		<link rel="stylesheet"
+		href="dist/css/mobile-angular-ui-desktop.min.css" />
+		<link rel="stylesheet" href="css/demo.css" />
+		<script
+		src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular.min.js"></script>
+		<script
+		src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular-route.min.js"></script>
+		<script src="dist/js/mobile-angular-ui.min.js"></script>
+		<!-- Required to use $swipe, $drag and Translate services -->
+		<script src="dist/js/mobile-angular-ui.gestures.min.js"></script>
+
+		<script src="src/lib/amcharts.js"></script>
+		<script type="text/javascript" src="http://www.amcharts.com/lib/3/pie.js"></script>
+		<script src="src/lib/serial.js"></script>
+		<script src="src/lib/light.js"></script>
+
+		<script src="src/lib/d3.js"></script>
+		<script src="src/lib/nv.d3.js"></script>
+		<script src="src/lib/angularjs-nvd3-directives.js"></script>
+		<link rel="stylesheet" href="css/nv.d3.css"/>
+
+		<script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['timeline']}]}"></script>
+
+		<script src="src/js/app.js"></script>
+		<script src="src/js/service.js"></script>
+		<script src="src/js/loginController.js"></script>
+		<script src="src/js/SignUpController.js"></script>
+		<script src="src/js/homeController.js"></script>
+		<script src="src/js/insertUser.js"></script>
+		<script src="src/js/insertMachineController.js"></script>
+		<script src="src/js/graphsController.js"></script>
+		
+
+	</head>
+	<body ng-app="AngularApp"
+	ng-controller="MainController">
+		<!-- Sidebars -->
+		<div ng-include="'pages/sidebar.html'" ui-track-as-search-param='true'
+		class="sidebar sidebar-left"></div>
+
+		<div ng-include="'pages/sidebarRight.html'" class="sidebar sidebar-right"></div>
+
+		<div ng-include="'pages/modal1.html'"></div>
+		
+		<div class="app" ng-swipe-right='Ui.turnOn("uiSidebarLeft")'
+		ng-swipe-left='Ui.turnOff("uiSidebarLeft")'>
+
+			<!-- Navbars -->
+
+			<div class="navbar navbar-app navbar-absolute-top">
+				<div class="navbar-brand navbar-brand-center" ui-yield-to="title">
+					Apneea Application
+				</div>
+				<div class="btn-group pull-left">
+					<div ui-toggle="uiSidebarLeft" class="btn sidebar-toggle">
+						<i class="fa fa-bars"></i> Menu
+					</div>
+				</div>
+				<div class="btn-group pull-right" ui-yield-to="navbarAction">
+					<div ui-toggle="uiSidebarRight" class="btn">
+						Alerts<i class="fa fa-envelope" style="margin-left:5px"></i>
+					</div>
+				</div>
+			</div>
+
+			<!-- App Body -->
+			<div class="app-body" ng-class="{loading: loading}">
+				<div ng-show="loading" class="app-content-loading">
+					<i class="fa fa-spinner fa-spin loading-spinner"></i>
+				</div>
+				<div class="app-content">
+					<ng-view></ng-view>
+				</div>
+			</div>
+
+		</div>
+		<!-- ~ .app -->
+
+	</body>
+</html>

@@ -1,0 +1,27 @@
+app.controller('insertUserController', function($rootScope, $scope, $http, serviceHttp){
+	$scope.getUsers = function(){
+		$scope.users = [];
+		serviceHttp.get("/usersTST", function(json) {
+			console.log(json.length);
+			for (var i = 0; i < json.length; i++) {
+				console.log(json[i]);
+				$scope.users.push(json[i]);
+				console.log("USER " + $scope.users[i].name)
+			}
+		});
+	}
+	$scope.insertUser = function(){
+		console.log("insert user");
+		console.log($scope.name,$scope.email,$scope.address)
+
+		if ($scope.name == undefined || $scope.address == undefined){
+			console.log("undefined")
+		} else {
+			 serviceHttp.post("/usersTST",'[{"name": "' + $scope.name + '", "email": "' + $scope.email 
+					 + '", "address": "'+ $scope.address +'"}]', function(json){
+				 console.log(json)
+			 })
+		}
+	}
+
+});

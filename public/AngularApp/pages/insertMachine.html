@@ -1,0 +1,134 @@
+<div ui-content-for="title">
+	<span>Machines</span>
+</div>
+
+<div class="scrollable">
+	<div class="scrollable-content section">
+		<button type="button" class="btn btn-default dropdown-toggle" ng-click="collapseM=!collapseM" style="margin-bottom: 15px">
+			Add a machine
+		</button>
+		<div ng-show=collapseM>
+			<form role="form" ng-submit='insertMachine()'
+			class="col-xs-12 col-md-12 col-lg-6"
+			style="border: 1px solid #ccc; padding: 15px; padding-bottom: 45px">
+				<fieldset>
+					<legend>
+						Add a machine
+					</legend>
+					<div
+					class="form-group has-success has-feedback col-xs-12 col-md-12 col-lg-12">
+						<div class="form-group">
+							<label>Machine id</label>
+							<input type="name"
+							ng-model="machine_id" class="form-control" placeholder="machine's id">
+						</div>
+						<div class="form-group">
+							<label>Machine Model</label>
+							<input type="name"
+							ng-model="model" class="form-control" placeholder="Model">
+						</div>
+
+						<!-- <div class="form-group">
+						<label>User</label> <select class="form-control"
+						ng-model="userSelected"
+						ng-options="item.name for item in usersSelect"></select>
+
+						</div> -->
+
+					</div>
+				</fieldset>
+				<hr>
+
+				<div ng-show="errorShowM" style="color: red">
+					<h5>ERROR! please verify again the fields</h5>
+				</div>
+
+				<button class="btn btn-primary btn-block col-xs-6 col-md-6 col-lg-6">
+					Add machine
+				</button>
+
+			</form>
+		</div>
+
+		<div class="col-xs-12 col-md-12 col-lg-12" ng-hide=collapseEdit 
+		style="border: 1px solid #ccc; padding: 15px; padding-bottom: 45px; ">
+			<legend>
+				Machines <i class="fa fa-refresh pull-right" ng-click="getMachines()"
+				style="cursor: pointer"></i>
+			</legend>
+
+			<div class="list-group">
+				<div class="list-group-item row" ng-repeat="item in machines">
+					<div class="col-xs-8">
+						{{item.machine_id}}
+						<br>
+						<b>Model:</b> {{item.model}}
+						<br>
+					</div>
+					<div class="col-xs-4" style="color: #007aff; margin-top:12px" ng-click="showEditMachine(item);">
+						<div class="pull-right btn">
+							<h4>Edit <i class="fa fa-pencil-square-o" style="margin-left: 6px"></i></h4>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div ng-show=collapseEdit>
+			<form role="form" ng-submit='editMachine()'
+			class="col-xs-12 col-md-12 col-lg-6"
+			style="border: 1px solid #ccc; padding: 15px; padding-bottom: 45px; margin-right: 15px; margin-bottom: 15px">
+				<fieldset>
+					<legend>
+						Edit Machine <span class="btn pull-right" ng-click="getMachines();collapseEdit=!collapseEdit;"> <i style="font-size: 22px;" class="fa fa-times"></i> </span>
+					</legend>
+					<div
+					class="form-group has-success has-feedback col-xs-12 col-md-12 col-lg-12">
+
+						<div class="form-group">
+							<label>Machine ID</label>
+							<input type="id" ng-model="editModel.machine_id"
+							class="form-control">
+						</div>
+
+						<div class="form-group">
+							<label>Model</label>
+							<input type="name" ng-model="editModel.model"
+							class="form-control" >
+						</div>
+						
+						<div class="row" style="margin-top:15px">
+							<div class="col-md-12">
+								<label>Assigned Patient: {{editModel.user_id}}</label>
+							</div>
+							<div class="col-md-8">
+								
+								<select class="form-control"
+								ng-model="userSelected"
+								ng-options="item.name for item in usersSelect"></select>
+							</div>
+							<div class="col-md-4">
+								<div class="btn btn-primary pull-right" ng-click="assignUser()">
+									Assign
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</fieldset>
+				<hr>
+
+				<button class="btn btn-primary btn-block col-xs-6 col-md-6 col-lg-6">
+					Save
+				</button>
+
+				<div class="btn btn-primary col-xs-4 col-md-4 col-lg-4 pull-right" ng-click="deleteMachine()">
+					Delete <i class="fa fa-scissors" style="margin-left: 4px"></i>
+				</div>
+
+			</form>
+		</div>
+
+	</div>
+</div>

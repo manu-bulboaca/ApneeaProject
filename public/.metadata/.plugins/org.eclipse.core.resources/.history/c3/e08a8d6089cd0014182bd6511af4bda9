@@ -1,0 +1,42 @@
+<div ui-content-for="title">
+	<span>New Machine</span>
+</div>
+
+<div class="scrollable">
+	<div class="scrollable-content section">
+
+		<form role="form" ng-submit='insertMachine()'
+			class="col-xs-12 col-md-12 col-lg-6"
+			style="border: 1px solid #ccc; padding: 15px; padding-bottom: 45px">
+			<fieldset>
+				<legend>Add a machine</legend>
+				<div
+					class="form-group has-success has-feedback col-xs-12 col-md-12 col-lg-12">
+
+					<div class="form-group">
+						<label>Machine description</label> <input type="name"
+							ng-model="desc" class="form-control" placeholder="description">
+					</div>
+
+					<div class="form-group">
+						<label>User</label> 
+						<select class="form-control" id="sel1">
+							<option ng-repeat="item in usersSelect">{{item.name}}</option>
+						</select>
+					</div>
+
+					<label>Email</label> <input type="email" ng-model="email"
+						class="form-control" placeholder="Enter email">
+				</div>
+			</fieldset>
+			<hr>
+
+
+			<button class="btn btn-primary btn-block col-xs-6 col-md-6 col-lg-6">
+				Add user</button>
+
+
+
+		</form>
+	</div>
+</div>

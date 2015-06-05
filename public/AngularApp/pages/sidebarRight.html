@@ -1,0 +1,36 @@
+<div class="scrollable">
+	<div class="scrollable-content">
+		<div class="list-group"  >
+			
+			<a class="list-group-item media" ng-show="getCount()" ui-toggle="uiSidebarRight">
+				<div class="media-body" ng-click="clearAll()" >
+						Clear all
+				</div>
+			</a>
+			<a class="list-group-item media" ng-repeat="item in notifications" >
+				<div class="media-body" >
+					<h4 class="media-heading" ng-click="goToDetail(item.user_id,item.id)">
+						<span>
+							{{item.title}} 
+							<span ng-switch on="item.icon" class="pull-left" style="margin-right:8px"> 
+								<span ng-switch-when="important"> <i class="fa fa-exclamation-triangle"></i> </span> 
+								<span ng-switch-when="medium"> <i class="fa fa-exclamation-triangle"></i> </span> 
+								<span ng-switch-default> <span class="label label-default"><i>General</i> </span> </span> 
+							</span>
+						</span>
+						<span>
+							<i class="fa fa-times pull-right buttonM" ng-click="clearAlert(item.id)"></i>
+						</span>
+						
+					</h4>
+					
+					
+					<div class="media-body" ng-click="goToDetail(item.user_id,item.id)" style="width:100%">
+						{{item.description}}
+					</div>
+				</div> 
+			</a>
+
+		</div>
+	</div>
+</div>

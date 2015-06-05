@@ -1,0 +1,78 @@
+<div class="modal" ui-if='modal1' ui-state='modal1'>
+	<div class="modal-backdrop in"></div>
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<!-- <button class="close"
+				ui-turn-off="modal1">
+				&times;
+				</button> -->
+				<h4 class="modal-title">Welcome<span class="label">{{successfullySign}}</span>
+				<button class="btn btn-primary pull-right" ng-click="topButtonClk();">
+					{{topButton}}
+				</button></h4>
+
+
+			</div>
+			<div class="modal-body" ng-hide="signUpV">
+				
+				<div ng-controller="UserCtrl" class="row center-allign">
+					<span style="color: red">{{message}}</span>
+					<form ng-submit="submit()" class="col-sm-5 center-form" style="text-align: left">
+						<div class="form-group">
+							<label>Username</label>
+							<input ng-model="user.username" class="form-control" type="text" name="user" placeholder="Username" />
+						</div>
+
+						<div class="form-group">
+							<label>Password</label>
+							<input ng-model="user.password" class="form-control" type="password" name="pass" placeholder="Password" />
+						</div>
+
+						<input class="btn btn-primary pull-right" type="submit" value="Login" />
+					</form>
+				</div>
+
+			</div>
+			<div class="modal-body" ng-show="signUpV">
+
+				<div ng-controller="SignUpCtrl" class="row center-allign">
+					
+					<span style="color: red">{{message}}</span>
+					
+					<form ng-submit="submit()" class="col-sm-5 center-form" style="text-align: left">
+						
+						<div class="form-group">
+							<label>Name</label>
+							<input ng-model="user.name" class="form-control" type="text" name="name" placeholder="Full Name" />
+						</div>
+						
+						<div class="form-group">
+							<label>Username</label>
+							<input ng-model="user.username" class="form-control" type="text" name="user" placeholder="Username" />
+						</div>
+
+						<div class="form-group">
+							<label>Password</label>
+							<input ng-model="user.password" class="form-control" type="password" name="pass" placeholder="Password" />
+						</div>
+						
+						<div class="form-group">
+							<label>Mail</label>
+							<input ng-model="user.mail" class="form-control" type="text" name="mail" placeholder="Mail" />
+						</div>
+
+						<input class="btn btn-primary pull-right" type="submit" value="Sign Up" />
+					</form>
+				</div>
+
+			</div>
+			<!-- <div class="modal-footer">
+
+			<button ui-turn-off="modal1" class="btn btn-primary">
+			Log in
+			</button>
+			</div> -->
+		</div>
+	</div>
+</div>

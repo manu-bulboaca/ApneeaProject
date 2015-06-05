@@ -1,0 +1,14 @@
+<div ui-content-for="title">
+	<span>Graphs</span>
+</div>
+
+<div class="scrollable">
+	<div class="scrollable-content section">
+
+		<div class="list-group-item">
+			<label>User</label> <select class="form-control"
+				ng-model="userSelected"
+				ng-options="item.name for item in usersSelect"></select>
+		</div>
+	</div>
+</div>

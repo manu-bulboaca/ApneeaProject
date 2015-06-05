@@ -1,0 +1,909 @@
+!SESSION 2015-03-14 23:41:38.541 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data J:\MANU\nodeServer\public -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-03-14 23:41:48.628
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY com.yattasolutions.umllab.ui 4 0 2015-03-14 23:42:26.150
+!MESSAGE No valid license is available.
+!STACK 0
+com.yattasolutions.obf.kh.g: No license found for UML Lab.
+	at 3P6D3FEHLQDCAKZOYQJBUZYOXZ4YUH5YVVXJ6FNDFCKFUC2QPA7RWWRXF2RRCV2HDT5H45BPXKOZWQIKCGXEFXMP47CBSV3M2BZ5VML3A3KUGCAWLRJ5LKGO4GIXY42HRRRC7YD43CZOA3CD3SPZGUAQIQCQG4JC6HIP7WAUYDO4HMH5CKBT4R7Z5UJGECQKO7WDFEO54W2NRQPYQPO6HRJ2PGKTIQK3BAKNCS4C5JHVZLXHFYEQUESYBUPMRDPZ45HO5SYXSEHIXDLZ4ATCKUEKF6D4HHAVDP7C5HVD565JQ3WLG4UM42RH3LCTY22EE3TK5IRIPMPARJLRMNE5XZGWSYLG5HIMMZAIY54K2CWK7SDITCOMCKDU4YY3XCCIDYKMTLK7S646PMERR2M4HMTE7BYFARJB7OJV6C7R3RIOHUP7NPEIIKI2KXCA7MIB25PG47E3UQD62LU4JTQHAHC5FDVH7MUVKQBVWVJL2OFVU27PWSB3B6CVXAFYBZSLZOZDUUURFC2RNRD6YJVCEDIHDJVJWSXRTJTKGGFOUOBAJGPXJU2C6OXXXVGP5V6PVCGYZGATJK6LPYRWSSEA5QIIR7TGU7XSRAWK4J2N4Q6SK32RW4OCHQBNDLGIXGQ3R6LTBIVPMS3SYJDRA2WDUVGBZFE6BXDRE44HXEM3LUIXBNQK3IE4B3ZNKO3CWPWHRDZ26DMWNNM35SNKQTR5VDO4HTAMXCMRB5IE4PPKIQHTKTQOSCUI3DPO5QU3ZL27AO6AB537K3ZA3KMPCCBHR6ITY4TNCNBWQJKBRNXKRDEPTZOQXCUPVV7CIEBG46IMNXNRPBNFVTEQBGLVFSNKSO2MLO3LHYMSGOUOPSRVFUC2LCXKW4HC2WZVPULHMLKDAAB3NDDSNBBUO4TJNTUOLNOEDP25JDC6Q4M7RPH7YULC7AGBR5SW5X5KL6HYA4RTTPWW63PV5V6DM6VHYGYRBROMFOPMRMGNEVJ4FX22PFRWW26UP57XPN3VMOS6NGK63U32J3TJHDZC2MJCCB567D4L7HWFK3BIYFGOWZ4PUTTAHAYXRBZPJ4OAQRP4OLGIYDS2L4HNFQLOVIVM5APUKILOPTXBOXTTZZWXAKGIN5BMWNB4DIWQK7NMIKOZHDG3D5SG6AOY36QJWLE27FBSF2R37JV7BM5O6NL6YLXFGT6WYFXITAFZTMC446555KHEQGJ5TFSD2YTPYBT7R4D7EG3VF3RDQKU5ABMMOQ2DATIEYTO7GSZ5KSIM3CQD7OHS77JPHX3DOR7JWTRYTC5UT267N3KKJDS7JEFNHZ2MURENZBZRUO6M7W5XOKK6UGAW7GUGFKKIPOCZV75MQ2W4RIYFYVTHDQJFAEX444RL62NRD62VWHOZ7ZMWYTPRP5VDFICMDFU5HVAIACUASYASLBSJ3WUVIQGITDT6ATIYQW5R4IU7EJGFKNFUTMTBGCBHQYKSSWL76VHBYUTB7T4GNWCFXXBQCQ5FURDLAINOBE4ONEASLGPJAX4T2E5IGAXDMDSX4X35F7KJTOEJX2VWDLCYVMSFQXVGC7754A4PTZU3GSUMOGFNEV4GGUCE5CRCLLWMPRAQOOFVYPXDNBY6AWO4QT7U46MJTATVCVC37SK7P6PX2CMH5MQAK2DSDCFGJR3E6VBDB2AFBCWRBXYGVOUQTQOJZT43ENVEK3DCS6DQNX3EZ4L647DZRYX6OVFM4D3KIRLFHCNHMDPLNPKUTALRWWQMOPTSM5KIV34ADKPNW6PEB3RKRYA76SZ4YHIYSYCRJTL35BQJUW6LVCFHTHBOFYIYXF7DLRLDHDW6VSZBZAWVNHLVBSJV57WSFCDPJUCUIBFLMSXJ5H4YXTKB26CRBRNZ3TXTLEAHLMMRURNJPJWRUWSWUHPVEOODU6V7E6STY2YN7DZROMQNLKOKXVQSO4F346PHXS4F5PMSEJHSGQ3CCKBCAHC6VOZJFW7YWUD3UHVFHHA3JDTMGQ6VCLHBLDTD2WWDB5KUCB5PRR362K6DZ5Z7K6YJCFLATE33O6MOQEZ52M4T2TIA4DE2ZPVYUANCAUNJNANAZAJI2WKFGVLDULPYQVFLBWMHPS4X4GJGEOCHMSJP4E3DTBXXNGBL6UZODFCCW4FDHKGSMTKACV75LNB3M5LOOP4CKWLSYOJWYHPEN4PYUOTHZWMJ6XPKOTZBQ6RDETDZZI3ZHL2EIIZZPJO6JKYO4TAJQFYSN4KEGV3QOPSH6U53DAUIT6WBWZOS34KTNOIEOLWTAEF4DVXQEOOAOUL6JSP2ABOPJUNPKTDCA4Q44RKT3M42LVN2KF3UDN6U4RUZ2TBJ257QKANEY4HLA3MJEBPIR7TJXVQQCJ3Q3XO5RLBJISL3W3XOSBMOMAWJXDBSQQJQ5IPPBEFAQVPOIAXI4BWQKWR6XN7Q7ELTSMYQRF7BIRNV3D4OXC7L32IDHW3E7ANZVZUS5VVOFAPMYKFQQNXLOXKEGBJZSLDKWBYPKUUQ4UMFI7DVAQDOIJYXPO4R326QXSE6TEB4KWBJS3WPEGFEPR6S4UDSFOM5ALV2DDV467I7TVFOEYLWUP7DT64U3EMICCEAY44IGNHRMUKTIAID3LX3YKJRO4YYUHTHRQJ37HSTJVNZQNKK7NCXIIXMAF36OOLSYOQXAO5CRRLPU4P6OOYDOSIAFAGFKV3SPPMZP6GIWVQJXZWIREU5G4FUE5EXECTV43C6ZLOQX55SDM3U252YE3FKIZW6FUVFQO6RNHZIJEM4VLGPFHZSNYDBMUPBDTTYTZ566HRX3MWAS5PWJSCEVQLTJ7MU4ZIU3GDBLT6VESFKUE4CVTXNSWWQZZR5I7LB6AAKHQFADRSTH2V5ZTZCFYDKU7WQAR3EBJ6CKLA7THXHGMHP5OV7ZVQHLSUNQRPR3Q77POQDRSFEZ7DAGVLZS62NQMSOXHWTONNZTA6D4QTMPSTW4TWLKMTGVHHYFNHDVNPEFMRB/IL2HRVPA5LPNRYD6KQY3OMQ3LG.<unknown>(Unknown Source)
+
+!ENTRY com.yattasolutions.umllab 2 0 2015-03-14 23:42:36.225
+!MESSAGE Unable to configure UML constraint validation
+!STACK 0
+java.lang.ClassNotFoundException: Unable to load synthetic subclass of com.yattasolutions.umllab.validation.f
+	at com.yattasolutions.umllab.validation.a.R(SourceFile:123)
+	at com.yattasolutions.umllab.validation.f.<clinit>(SourceFile:40)
+	at com.yattasolutions.obf.op.a.earlyStartup(SourceFile:17)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:67)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.UnsupportedClassVersionError: com/yattasolutions/umllab/validation/f__Gen_Configurable has been compiled by a more recent version of the Java Runtime (class file version 0.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at com.yattasolutions.umllab.validation.a$1.ads(SourceFile:109)
+	at com.yattasolutions.umllab.validation.a$1.findClass(SourceFile:91)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.yattasolutions.umllab.validation.a.R(SourceFile:119)
+	... 7 more
+
+!ENTRY org.eclipse.ui 4 0 2015-03-14 23:45:56.555
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.yattasolutions.obf.ms.g.a(SourceFile:585)
+	at com.yattasolutions.obf.ms.g.a(SourceFile:504)
+	at com.yattasolutions.obf.ms.g.bN(SourceFile:499)
+	at com.yattasolutions.obf.oa.a.buttonPressed(SourceFile:297)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+	at org.eclipse.jface.window.Window.open(Window.java:808)
+	at com.yattasolutions.obf.ob.b$2.run(SourceFile:123)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+	at com.yattasolutions.obf.ob.b.a(SourceFile:112)
+	at com.yattasolutions.obf.mt.f.a(SourceFile:47)
+	at com.yattasolutions.obf.ms.g.a(SourceFile:603)
+	at com.yattasolutions.obf.ms.g.a(SourceFile:352)
+	at com.yattasolutions.obf.od.b$1.run(SourceFile:50)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY com.yattasolutions.umllab 4 0 2015-03-14 23:45:59.618
+!MESSAGE UML Lab internal error: Error acquiring license.
+!STACK 0
+java.lang.NullPointerException
+	at com.yattasolutions.obf.ms.g.a(SourceFile:585)
+	at QMPOUU7QC3PDZZ6RS2ESG6TRWIAM3KTWRVQJXUZ3467HGTD6UAWQ4QNMDQQ53ELZDMSL4EK5Y4O54BNPSMSOYH6O26DD6LFGVKPMLYPFRNMIBQJRXCMSYCCWWSMAFVXSO76HFTF26VDDAJUM4JTZED7QCJ26MENTPVCXPOQBZLSCFS34R3WI5H2WYOO3VOKKEFJ3RMKLB7YO6MASVOIC3ELCCNCJK7L6JWQPFEKSCNAET4IPZKRATEOA2OG4HK2TKXXRSM5NKH2ZHBXRDBHQNE52O3WI7FWHGG5DGECCNVMR7SZIAAMJMMEIAWFQIUWN4PKUS7SMUOKQY7EKTGWHBJHJRLUUGDBIWLML5TWD4724ASSCHSNTU5LIR2MB4KHMKSNU44A77MSADS3BPB6UZ744HVI7EPRLBFORGBP32ZII4TBDCWQMTLQIUS3UR27EKBQBMSJSSI6M3TN3BZMGWRHXDFJRGIELPAZZ7YT3LB2QSEERXVNM3A7PWBCGH34GBY2GFCIFBE3SILPDCOMC7R32PR4TFTM6WS5DE4MMROBZE7ODIQXHUTTIMO7APZMSBR7VYBR5OK535EHCVWLUQPXBMWJ7ENDL7BKCXLZ77M2M54R6GJ25BWA7OJTNIQI36I7MIXY77O5COR3NYWVLSTWSYE3NVSJSNVDFBSUTK3TSMOGMWRMNGWPEWRFYQY267EKBCXHVUMZFMS24WBYWVXGQ3B6FR7XJHXPWIUMJIGDHX3GM3S4XEG22XH4NFY6W2Q7AGODAXECOIQKG3GLSXXYXEJRZWHZHOH3JFJSFRZW5GHOV72ENCAVO3EFAIJFKGUIUY3AYMQ3CH5LH7YTDZTH77T54D43EDMOFKKLEIJK6V5HVUZEW73AS5JXEW33EJOPOSVOYH3NNXLF7OUW2CPI5VNVATT5FGTUORMO7WBDCFVMSA5F3MSLVHMZBYZ2HPAGFKVCUBQLI3EHXIBOXZA7VILMETOWECKIA47JFBIXNYKFZ4UUA2YPQT4YSGYRBWO3U3GJP2T3FJHLVUEE7FMX26ICKSS7JOIOYYL3LT4YR3PYJTKNXA7WUKQZV6ACQDHU7S3GHZDHVP/CSOASFBG4P4PKRYY3CG4KEIWZC.<unknown>(Unknown Source)
+
+!ENTRY org.eclipse.ui 4 0 2015-03-14 23:45:59.619
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+Caused by: java.lang.NullPointerException
+	at com.yattasolutions.obf.ms.g.a(SourceFile:585)
+	at com.yattasolutions.obf.ms.g.a(SourceFile:504)
+	at com.yattasolutions.obf.ms.g.a(SourceFile:604)
+	at com.yattasolutions.obf.ms.g.a(SourceFile:352)
+	at com.yattasolutions.obf.od.b$1.run(SourceFile:50)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 23 more
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-03-14 23:46:32.267
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-03-14 23:46:32.268
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Iulia'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-03-15 22:09:26.443 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-03-15 22:09:39.809
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY com.yattasolutions.umllab.ui 4 0 2015-03-15 22:10:09.039
+!MESSAGE No valid license is available.
+!STACK 0
+com.yattasolutions.obf.kh.g: No license found for UML Lab.
+	at H4TCTCUXZ674HINNA4ZJKPIJBSZORO6NNXXVAJVYAN5AOJVOVEPGTC632SRU6MTIKHTZ6DKCELINFIOCW2WUE7BKTNJJLA2SHMLO3NFP2EEP5HUWDZDVKJF4RETMRTWFSP2PYEQFVJ5F5KPNLYYDHPASQ655AO6JXJMQYLL7VSN5DIEA4DZMWQRUDAZZ3O2QJOK33O4R2IO6FVMKBNZWDGRXDOJM6XC72EASFFF2HOI7STKC6AKDLKJTFPF34P74KV5WUKECSD45NBXXEXIZ4ZDCX33K2LWVCL5XMWQLRABXTRBCHM7IFK3R7CTUUSXHVX7UFMSAMEALPIKNWH3GRANV3V4HIFW6BWHAZTUFDBDGTYE64IRTFEZ3Z6IUVLFTKQ4FVRAD2IPFBLRBK3CGM7P7HVD6R5RMDOQDW5PK7ON2RBJJZ3VOFRGLEWINBEO6K55IGTOOBKVJZDGJCCVO2QSCL745JDOTKXGCRSZEA7SOKVHIK2W7NCMFGYPUVEXMJ63RNABXO6NZY752PXNFJQUH4KWZ7SBC4LXK64IVJ7OSPL5M2764EJYCRFZ7UULYLESJEEVZX7KBOVLWJ2Q4MSFO4AIAF4ECIIBAHZRMF3OVLK5RN6VTOR6E4GRT4JLEG25TUZ6TDIE3MICNU2TJCRDGTDLC77JL2QUUL6NU5ZCDYASMS3BA5CJYYFOMBX4YQH2BESNKHQID4IGMEE6YN3HRG2EJQ3PL4UIGR35UZCKWXY4GF6YEBDUVNMXNNBW34XTX5YSXBVDPGXNQQERUDVLDXS6JUPVS2UCW5H4YKQW4YX5IA4LV4DU7YLKT2CFFOJ6KTMWMQ4ZPCX4FAXR7IQWWAWDEJCQDBILAPNUWS44J45DIDZPSS5IZHKGBJXV5J7VSSRNKO2OFAXTU2SRXPPQRSSCERL2HU3JVR6HEOYVOLMVGPVWOIQS3TYQXDQC4J6UBLYVGJJFNMANHENMBP4Z3Y7VTS4FG6222HCGBYWOGCQKPT4NAZ6OFCSO74MVFSGRJ52YIRG5OMPUUXERJSBVLKV2N76IIRV3LQFUHIXC4UWVDMM3KUVE47NKJ2OWNX7O7WH2VWOM7KC2HIIQKHSXUJ5XUVK6VOADGJWO7WFLF3FVUBODQOKPKQPCYGU3YLNF73PPI3VX5B3SZB5RJMA2UEJLYCJAI5RTIX7YXDINPPGZURDOJBPGTNQHINL2R4KIRYZA27OHKHBCRWXDM5NWZE4765RGU67HF4FKKFKSGWGL3JG5WKP7UFDQRW6JGPI445HVPOPGEO2F2JXNO43ASXLYOW5H25ZAC5O2N3OWXQ6Q5H5QB7AZDORMYHRAKVRZ742FCMN3NAD2RASZUM5FJ3NYCXSMYFRMWFDYXWAHWSUFBXXLELACGHKC5AZQY7HWSMFEK3MM7MUKXCORBYGBTG4F5H37Z72SSIMFORBICOJWCN7BNLY3675VOVIL74VX4UOCYGF3JTTKQESNKUB63JNLYIGTXGZEL6U6PD37CBBWP6N46FJ7Q7XU3VSKN7EEJ2KZOA6QRS22PQHNZHEHWQTDTXP5DLEX2FMZTLLAZV2PLFWJRKTVUBEADIT5K4CUCAFRB6JOCJH6YP3EMUN7AQ6BGSHCLSRNXXCIKZXWALFMZPDBDAF3NM7SCZKAYNLFBU575KDYUIQYSEF6SHD6A2TGP2NAGOEP4ZL4GGBXWM2FZMIBAIZXDP4UBESXSHTUW6PABUUOY3LZDQPUDIALRLFZJE3E76PTEFU6EE5EEDWNHXCTFT2TWJJWB2O4Y/BVCETEW7I636KULTQS7KX5DFOF.<unknown>(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-03-15 22:10:18.721
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-03-15 22:10:18.722
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Iulia'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.yattasolutions.umllab 2 0 2015-03-15 22:10:19.505
+!MESSAGE Unable to configure UML constraint validation
+!STACK 0
+java.lang.ClassNotFoundException: Unable to load synthetic subclass of com.yattasolutions.umllab.validation.f
+	at com.yattasolutions.umllab.validation.a.R(SourceFile:123)
+	at com.yattasolutions.umllab.validation.f.<clinit>(SourceFile:40)
+	at com.yattasolutions.obf.op.a.earlyStartup(SourceFile:17)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:67)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.UnsupportedClassVersionError: com/yattasolutions/umllab/validation/f__Gen_Configurable has been compiled by a more recent version of the Java Runtime (class file version 0.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at com.yattasolutions.umllab.validation.a$1.ads(SourceFile:109)
+	at com.yattasolutions.umllab.validation.a$1.findClass(SourceFile:91)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.yattasolutions.umllab.validation.a.R(SourceFile:119)
+	... 7 more
+
+!ENTRY org.eclipse.jface 2 0 2015-03-15 22:16:28.018
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-15 22:16:28.019
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4e7151b3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@31f2e4b3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-15 22:16:28.019
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4e1104f4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12603fa5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-15 22:16:28.019
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c0ab04f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e6f9868,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-15 22:16:28.019
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3a00237d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the JavaScript file,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@26276868,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-15 22:16:28.019
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@180fb796,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@56c763,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-15 22:16:28.019
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.editor,Open Declaration,
+		Open an editor on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@13d85ddb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.open.file.from.source,Open Selection,
+		Open an editor on the selected link,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11f63b10,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,Open Declaration,
+		Open an editor on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c8f756e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javascriptViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-15 22:16:28.019
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ca3acad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3ad4c643,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-15 22:16:28.019
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.ui.command.addPlugin,Add Maven Plugin,
+		Add Maven Plugin,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6bb37247,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.core.runtime.xml,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@53f94afe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b3dea9a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-15 22:16:28.019
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b120d48,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c6ed296,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(com.yattasolutions.xpandpp.formatTemplate,Format Template,
+		Formats an Xpand++ temaplate if manual format mode is enabled,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c414eb3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-15 22:16:28.019
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2014fd86,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@50c59289,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-15 22:16:28.019
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@674fd531,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.indent,Indent Line,
+		Indents the current line,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7488db31,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-15 22:16:28.019
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a34de5e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3eb85d54,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-15 22:16:28.019
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@752ffce3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39c76fc8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-15 22:16:28.019
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a36a35d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the JavaScript file,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@456af3a3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SESSION 2015-03-18 17:31:18.014 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-03-18 17:32:13.359
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY com.yattasolutions.umllab.ui 4 0 2015-03-18 17:33:04.719
+!MESSAGE No valid license is available.
+!STACK 0
+com.yattasolutions.obf.kh.g: No license found for UML Lab.
+	at T5WFMWVJKJVHMDOP7EQQTJNH554UR6JCP435234RPUC24ODBYKVD25BKL57FZZWNKWNB7RWRP26THDFG7HZAYLVEDK66NZ4YXDFER3H6OAN3RVMPV7YUEBDW7RAZKJUBQILIXSKPOMLAORUL7ETT45OVYWKYJ7LXNRC4FPDRTLO3EAPALN4KSYFCTR2HAJCWPBU7KHC4WSDQU4BJ6HDYGMP3TEUM24NINRRA3C7ZC73RWVSWLWV3USQDWWODV4LGBKNA6YCP3LFTLXYWTWYFYOH2LUVFYNUUAMY64DN4VJKAQY4YGLNSVM2KH3X3PCIQ6BULRVO3T7YSGXIX5O42R6I37LQAFYUTFXVVPTOIUFK6L25VFGHHR74RTOWU6LIGYIREG5DCDT2UYMH6QPSHJCL267D3LBMAS2THUXDIHE5FO34EYUMNM32YDAKRAVDALLJCUI5PAOI5HNKEIWNNHHEN6H4SG2S6PNXRUREUKFRUSW7N7OFHRPKAXOPK4RKVXWLUS375TFBMPEU3UDSKZBH3NGJOZG6HWZ35TXDSPOBU5LFQAA4VHWFOMXEH5BTJY6VV6WJ7YQJG342APRSNIEV7AWQ4BAYI674TSKN6ZT2LJ3223THWNA6AEGUOEVUXBRM4YU3APKJRT3SR3CSMWWBQHZK4BQ53GOJZ5MTATVILAXML7OQXDUA22G5XPZRE73QXC3TDT3QF6U7HFSDYQABZBCIEUTIOJ546O7OR5O5A7BHLZPHRIPGDEUZSNIYAT7R2AXA22KTGGKZQIISHGKOEMSPOAKHOPEWAT4CQ5PEVO7Y37ABU3BNVYNOZ2ET3EGYI2EMSPI7JHSSSMV727X2YD7VNSKDMQJXY6CIZOTJIH6XF62FC2HCXJPFEUEWS2FGCJDYAMGVWCJLZUF35JRN2SP7VT6CTSQQ4XFYZRF63PM6QXOFSZFCOMM23LFDEVHM64W2YOBVW5CD773QZ5SQFNCRKDRP2KUT5MJDR7ZNE2XJG4AS2KCK4J2ACVSNB44EU6H5KLCP3GLX6PKLLO2OCKV6PGDPGCEDMVT2ZRNEPNCW4ATY3QTOL2EGPSHT5CMY7O2RIRQRLIYZHXOJPHXY4MVFBTTRH3FV7RTNMOMS6FIV6Q6OHZHH4MVDL7SZQREGISJQXNYOG27QF6FKCTXLWMDGTIK5NIN6ZSWZ2HCLWUVGLTDGIBEB6OPCWC4BGTFHRRLWSMOZY2C3CSCUNLQ5FDT4IAWHHH3U4FGJ57IQK3OD64SHBANBDCNFN6LYB66EXHY4LPP7GSARMCPUVFN6KXEGWK6RXJON6VYDLCAPUNKUWAWDW2XPFZZ5HSSZPIRBZI32VOVPTY4MPFGPRS7SFI64BQZRDVB65QTL4IXRSKEFDYUYPUF3QJ5BP3ONKNGZXU66BXBNAHR4VCAJJWBFPGJYU77N4LDFVK7YNY4QDD2QPMCCG2WV7FOIVRCDNONEZCIFINSEGONOIZNECFYP5RZ4DEKVOY7CULKUDIV6FMI6QASMZRJF2ZLDQ3ELZCZUYS4M3DMN6MC4PM2N3PXH5FNG3GZC4VLAXMPA27O73D4BDH5JQKTEYK6Y25HE5XZK6N4JHEBRKNNIVJTEVWUKJYG5KCZOFCDIKMSLPMAFKJPXEKCOEEEG3ZBBQSMFB4BGTLEZ6WX5TNSAFT5HSONASQCW4EVRHTQGGC7HDRP33VWEU7QWFVG5JTD4UXOA7MTG4AZF6OVCOFJXJGCZ7VOHMPKE3XHU6MTTVESAOPWCOYSL6QUFSEFM7TOB7UU7Z/V3CJKUVI5P7JSSVYXKYJEHQXWF.<unknown>(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-03-18 17:33:16.155
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-03-18 17:33:16.155
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Iulia'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.yattasolutions.umllab 2 0 2015-03-18 17:33:16.476
+!MESSAGE Unable to configure UML constraint validation
+!STACK 0
+java.lang.ClassNotFoundException: Unable to load synthetic subclass of com.yattasolutions.umllab.validation.f
+	at com.yattasolutions.umllab.validation.a.R(SourceFile:123)
+	at com.yattasolutions.umllab.validation.f.<clinit>(SourceFile:40)
+	at com.yattasolutions.obf.op.a.earlyStartup(SourceFile:17)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:67)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.UnsupportedClassVersionError: com/yattasolutions/umllab/validation/f__Gen_Configurable has been compiled by a more recent version of the Java Runtime (class file version 0.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at com.yattasolutions.umllab.validation.a$1.ads(SourceFile:109)
+	at com.yattasolutions.umllab.validation.a$1.findClass(SourceFile:91)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.yattasolutions.umllab.validation.a.R(SourceFile:119)
+	... 7 more
+
+!ENTRY org.eclipse.jface 2 0 2015-03-18 18:03:27.944
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-18 18:03:27.944
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@245dbd09,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3340f248,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-18 18:03:27.944
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1a06b95,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@61c9afcc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-18 18:03:27.944
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@61555218,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33536319,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-18 18:03:27.944
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1dbf727a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the JavaScript file,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@62afd3ab,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-18 18:03:27.944
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10e4ce98,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5649af04,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-18 18:03:27.944
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7a52cdce,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@52b12236,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-18 18:03:27.944
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.editor,Open Declaration,
+		Open an editor on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4e1f8140,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.open.file.from.source,Open Selection,
+		Open an editor on the selected link,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@55b53608,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,Open Declaration,
+		Open an editor on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3965adcd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javascriptViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-18 18:03:27.944
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2526d5f9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@629e9845,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-18 18:03:27.944
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.ui.command.addPlugin,Add Maven Plugin,
+		Add Maven Plugin,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@503900d7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.core.runtime.xml,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c05f83b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2c4069ae,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-18 18:03:27.945
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b29d699,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@385fb22e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(com.yattasolutions.xpandpp.formatTemplate,Format Template,
+		Formats an Xpand++ temaplate if manual format mode is enabled,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@166d576b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-18 18:03:27.945
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1921b43c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.indent,Indent Line,
+		Indents the current line,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e9549d0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-18 18:03:27.945
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f5bfbca,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36b2cb6d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-18 18:03:27.945
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@951e911,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1910d90c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-03-18 18:03:27.945
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b063695,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the JavaScript file,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5c9bc6c2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+!SESSION 2015-03-21 13:08:22.609 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-03-21 13:15:40.652
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY com.yattasolutions.umllab.ui 4 0 2015-03-21 13:16:21.494
+!MESSAGE No valid license is available.
+!STACK 0
+com.yattasolutions.obf.kh.g: No license found for UML Lab.
+	at AWRZNZOKFJA45JAIUEPCDCWXYZYR4TCNTD72WY7PWIQAVFL2RLUQBS67EIXCUT2ATBVCYRPXCLJ3NSAJQ5ZFFWFPB5YYOZNRC2R6Q775TT3XOFZBNLTAKISHEZH2NZVIWGX7OD4IVRHO3LQQDDSJEQZUWBXOQ2ONZ7P4NCQVNSTV4XGZPXLRYJO4SYBK5ZX2ABH6J3EMEKC2WVUTN54DEWNOJFXBHUAFUUT5POPU67LWUSZTW74OR6Z2CHG3Z2D275ODS775VEYFVF7L5HXUDLMJLC54W52BU5FKOVDVLLW6JZRVTSJP7EUAGM4DFY3AWNH3AAKXENYKBPW5GKZUFVYFAM2ILCRB62LUMY3U2OPACONBTEGUXMDHL7R63FJIZ37BYDE624XFMUH2WD7SP2HEN7CHWGEUGYM4BANFELBU2X6XK4ID6CUQKATBYEQTD6YXSWZXOKHYVNHMLFPD3IX6VF53YMRGD572K4LLCL7OSNBKLU3FEG4HO7NX6N4FB6VGRDXFVXYDNQTGG6YTV2NVCIBFTKXC57OYFWEZYXWYLCVQ7HZ6YNNJR3PYGKE535FJO2LYZLX5X4K4UDRFTT5KACHVU2FNFVDPGIPQWRK5ZH7T3FT3NR3CUFNDNWELYECJ4GUUQSXO7WOUDWFV4ZED7UD2HLOFFAH7R7YE3XIGK7HNUDLLGDJDKMT4RPDSWXX3ELVJPBJO2DYSSIYQG7WH4ZGANZV36TSB6OR53DPRQRNL4F7JB6KERXJXJK7U5PWDO5HHT5BRDVKJVKTB7BOEVZBWNX63MSSZXMUPPU5C2HAQLH3YTVVXOLDYON2DPD2O22TI3WT4P4OS5Y4JCSFPN4KJKNWPQWOROCMKTYBJMIECJB2ZYFVU75WNVSDYRSZITDLUDGYRCBD22VSWOMT7ON7SAADA54QZKZWL665WUWIQHHW6OUY3RLAQZ76K5PPGZLXW6NP2IOHHJBMREBMVZD7ZNWOLYJ32PL3ITZBWYIUFLB5G3UJI6QKI4GFXZL7KXISAAQ6RJI6NMXAM2SV3GONS4TD6XT7JDPJK5AYQMJMK3TDT7LKTY5Y6FNBBBVKUBAL54YZQFJVIBHQE6ZNLMJEUIY7PQDB4RPDCR535ZLWPJPBVTKCU2E574IEK7HFMYYXUTBVKJEJDZYC27LJFZKSZXWLVKT4TKC7EK4WZ3Q2USOZQ3YYBJKBHEVZ2OUWDRBEESFL2GJ2RAXKZRKPT5YN2WYKEX5OBV23NTNZUOLHQNTBLJ6YNV375AZTVQ63UNQLFFJUIOSOQOXR463W6BVR4BG75ZBLCZJIID25VLE3CSUHJF76GRKS7C2SRYG2U5CUTWQCZEK4ZF2M7JV3S2Z5FGI4NTQ73JYU2HGVOAY2DZ4HJOERZUGLBAJD7RILKF7RIO4FIWDSLMK7XCQUPFLFQSY65V6ZQQL277DQNHMOMQNGV2AY23HDXX2NFG3X74FJHEE5GQBZULRS2M5QDYRTWODSK3NPE53AYLLDTJ3QQZ53WYCJPUTP5TXVNGNHFQ6HGOY23D65K3TG5COF2YHRAFHVWKW6PJNSHKGSNTW73HK3B5WLN763JXUSGMLKWQB7DVL6EZ5IBELB2TWHBCVWQL2IMWHL7USJHDI752Q6RLBRU2TPE3DF5Z5K5WVVBBI3T43HKGN3MAKLBIJS6ALZ2XBQDIVOGTCXLNV6WUKZT2LU5BNHEPC4JUI72U7CHGZMRNLAI3Y47BDS4ANY4J5OBWCAWUSZ47D4Q2JV2W7JECJP5E5RFDVULMJV2/Q3YG7W7VMYPI4ODPFXTRSPBAAF.<unknown>(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-03-21 13:16:30.729
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-03-21 13:16:30.729
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Iulia'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.yattasolutions.umllab 2 0 2015-03-21 13:16:32.388
+!MESSAGE Unable to configure UML constraint validation
+!STACK 0
+java.lang.ClassNotFoundException: Unable to load synthetic subclass of com.yattasolutions.umllab.validation.f
+	at com.yattasolutions.umllab.validation.a.R(SourceFile:123)
+	at com.yattasolutions.umllab.validation.f.<clinit>(SourceFile:40)
+	at com.yattasolutions.obf.op.a.earlyStartup(SourceFile:17)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:67)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.lang.UnsupportedClassVersionError: com/yattasolutions/umllab/validation/f__Gen_Configurable has been compiled by a more recent version of the Java Runtime (class file version 0.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at com.yattasolutions.umllab.validation.a$1.ads(SourceFile:109)
+	at com.yattasolutions.umllab.validation.a$1.findClass(SourceFile:91)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.yattasolutions.umllab.validation.a.R(SourceFile:119)
+	... 7 more

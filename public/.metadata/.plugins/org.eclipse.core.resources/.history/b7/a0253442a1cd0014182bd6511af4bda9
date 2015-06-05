@@ -1,0 +1,47 @@
+app.controller('graphsController', function($rootScope, $scope, $http,
+		serviceHttp) {
+
+	for (var i = 1; i <= 3; i++) {
+		serviceHttp.post("/machineTST_" + "0001", '[{"time": "' + "2015-01-" + i
+				+ '", "val": "' + "1" + '"}]', function(json) {
+			console.log(json)
+		})
+	}
+	for (var i = 4; i <= 7; i++) {
+		serviceHttp.post("/machineTST_" + "0001", '[{"time": "' + "2015-01-" + i
+				+ '", "val": "' + "0" + '"}]', function(json) {
+			console.log(json)
+		})
+	}
+	for (var i = 8; i <= 10; i++) {
+		serviceHttp.post("/machineTST_" + "0001", '[{"time": "' + "2015-01-" + i
+				+ '", "val": "' + "1" + '"}]', function(json) {
+			console.log(json)
+		})
+	}
+	for (var i = 11; i <= 13; i++) {
+		serviceHttp.post("/machineTST_" + "0001", '[{"time": "' + "2015-01-" + i
+				+ '", "val": "' + "0" + '"}]', function(json) {
+			console.log(json)
+		})
+	}
+	for (var i = 14; i <= 15; i++) {
+		serviceHttp.post("/machineTST_" + "0001", '[{"time": "' + "2015-01-" + i
+				+ '", "val": "' + "-1" + '"}]', function(json) {
+			console.log(json)
+		})
+	}
+	for (var i = 16; i <= 26; i++) {
+		serviceHttp.post("/machineTST_" + "0001", '[{"time": "' + "2015-01-" + i
+				+ '", "val": "' + "1" + '"}]', function(json) {
+			console.log(json)
+		})
+	}
+	for (var i = 27; i <= 30; i++) {
+		serviceHttp.post("/machineTST_" + "0001", '[{"time": "' + "2015-01-" + i
+				+ '", "val": "' + "0" + '"}]', function(json) {
+			console.log(json)
+		})
+	}
+
+});

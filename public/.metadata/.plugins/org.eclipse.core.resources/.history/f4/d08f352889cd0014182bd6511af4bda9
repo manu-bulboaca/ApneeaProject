@@ -1,0 +1,12 @@
+app.controller('insertMachineController', function($rootScope, $scope, $http,
+		serviceHttp) {
+	$scope.usersSelect = [];
+	serviceHttp.get("/usersTST", function(json) {
+		console.log(json.length);
+		for (var i = 0; i < json.length; i++) {
+			console.log(json[i]);
+			$scope.usersSelect.push(json[i]);
+			console.log("USER " + $scope.users[i].name)
+		}
+	});
+});

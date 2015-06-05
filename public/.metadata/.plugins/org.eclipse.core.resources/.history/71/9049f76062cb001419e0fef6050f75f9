@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+app.controller('homeController', function($rootScope, $scope, $http, serviceHttp){
+	serviceHttp.get("/usersTST",function(json){
+//		console.log(json);
+		for (var i =0;i<json.length;i++){
+			console.log(json[i]);
+			$scope.users = json[i];
+		}
+	});
+});

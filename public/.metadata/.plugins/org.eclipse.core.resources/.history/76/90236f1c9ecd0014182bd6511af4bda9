@@ -1,0 +1,4 @@
+app.controller('graphsController', function($rootScope, $scope, $http,
+		serviceHttp) {
+	
+});

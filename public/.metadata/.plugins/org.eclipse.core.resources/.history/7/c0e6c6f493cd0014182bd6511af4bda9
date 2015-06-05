@@ -1,0 +1,54 @@
+app.controller('insertMachineController', function($rootScope, $scope, $http,
+		serviceHttp) {
+	$scope.collapseM=false;
+	
+	$scope.getMachines = function(){
+		$scope.machines = [];
+		serviceHttp.get("/machinesTST", function(json) {
+			console.log(json.length);
+			for (var i = 0; i < json.length; i++) {
+				console.log(json[i]);
+				$scope.machines.push(json[i]);
+				console.log("machine " + $scope.users[i].name)
+			}
+		});
+	}
+	$scope.getMachines();
+	
+	
+	$scope.usersSelect = [];
+	// $scope.usersSelect.push({name: "select user"});
+	serviceHttp.get("/usersTST", function(json) {
+		console.log(json.length);
+		for (var i = 0; i < json.length; i++) {
+			console.log(json[i]);
+			$scope.usersSelect.push(json[i]);
+			console.log("USER " + $scope.usersSelect[i].name)
+		}
+	});
+	$scope.userSelected = "select an user";
+	$scope.desc = "description";
+	$scope.machine = "machine id"
+	$scope.errorShowM = false;
+	$scope.insertMachine = function() {
+		
+		console.log("insert machine");
+		console.log($scope.desc, $scope.machine, $scope.userSelected);
+
+		if ($scope.userSelected == "select an user"
+				|| $scope.desc == "description" || $scope.machine == "machine id") {
+			console.log("undefined")
+			$scope.errorShowM = true;
+		} else {
+			$scope.collapseM = ! $scope.collapseM;
+			serviceHttp.post("/machinesTST", '[{"desc": "' + $scope.desc
+					+ '", "user_id": "' + $scope.userSelected._id
+					+ '", "user_name": "' + $scope.userSelected.name
+					+ '", "machine_id": "' + $scope.machine + '"}]',
+					function(json) {
+						console.log(json)
+					})
+		}
+	}
+	
+});

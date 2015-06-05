@@ -1,0 +1,43 @@
+/**
+ * 
+ */
+
+app.service('serviceHttp', function($http){
+	this.post= function(url,dataA,callback){
+		console.log(url)
+		console.log(dataA)
+		var req = {
+				 method: 'POST',
+				 url: url,
+				 headers: {
+				   'Content-Type': undefined
+				 },
+				 data: dataA,
+				}
+
+				$http(req).success(function(data,status){
+					console.log(data);
+					console.log(status);
+					callback(data)
+				}).error(function(){
+					
+				});
+	}
+	this.get= function(url,callback){
+		var req = {
+				 method: 'GET',
+				 url: url,
+				 headers: {
+				   'Content-Type': undefined
+				 },
+				}
+
+				$http(req).success(function(data, status){
+					console.log(data);
+					console.log(status);
+					callback(data);
+				}).error(function(){
+					
+				});
+	}
+});

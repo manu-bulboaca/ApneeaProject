@@ -1,0 +1,13 @@
+app.controller('graphsController', function($rootScope, $scope, $http,
+		serviceHttp) {
+
+	for (var i = 1; i < 30; i++) {
+		serviceHttp.post("/userTST_" + "0001", '[{"time": "' + "2015-01-"+i
+				+ '", "val": "' + "1"
+				+ '"}]',
+				function(json) {
+					console.log(json)
+				})
+	}
+
+});
