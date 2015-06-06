@@ -59,6 +59,7 @@ app.get('/webService/:collection', function(req, res) {
 	});
 });
 
+// This is just for testing the samples without login
 app.get('/:collection', function(req, res) {
   var params = req.params;
   collectionDriver.findAll(params.collection, function(error, objs) {
