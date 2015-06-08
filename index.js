@@ -49,12 +49,8 @@ app.get('/webService/:collection', function(req, res) {
 			res.send(400, error);
 		}
 		else {
-			// if (req.accepts('html')) {
-			//     res.render('data',{objects: objs, collection: req.params.collection}); 
-			//    } else {
-       res.set('Content-Type', 'application/json');
+      res.set('Content-Type', 'application/json');
 			res.send(200, objs);
-			// }
 		}
 	});
 });
@@ -68,12 +64,8 @@ app.get('/:collection', function(req, res) {
       res.send(400, error);
     }
     else {
-      // if (req.accepts('html')) {
-      //     res.render('data',{objects: objs, collection: req.params.collection}); 
-      //    } else {
        res.set('Content-Type', 'application/json');
       res.send(200, objs);
-      // }
     }
   });
 });
@@ -341,9 +333,9 @@ http.createServer(app).listen(app.get('port'), function() {
 
 
 //Time for calculating use of machines for each user
-setInterval(calculateUsage, 86400000);
+//setInterval(calculateUsage, 86400000);
 // 1 per day
-setTimeout(calculateUsage, 3000);
+//setTimeout(calculateUsage, 3000);
 var usersStat = [];
 // user_id
 // user_name
