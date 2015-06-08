@@ -59,9 +59,13 @@
 				Patients <i class="fa fa-refresh pull-right" ng-click="getUsers()"
 				style="cursor: pointer"></i>
 			</legend>
-
-			<div class="list-group">
-				<div class="list-group-item row" ng-repeat="item in users">
+			
+			<div class="legend" >
+				<input type="text" class="form-control" ng-model="search.name"  placeholder="Search">
+			</div>
+			
+			<div class="list-group" >
+				<div class="list-group-item row" ng-repeat="item in users | filter:search">
 					<div class="col-xs-8">
 						{{item.name}}
 						<br>

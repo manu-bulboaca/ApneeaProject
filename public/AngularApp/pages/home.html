@@ -3,7 +3,7 @@
 
 		<div class="list-group text-center">
 			<div class="list-group-item list-group-item-home">
-				<h1>Welcome to the Apneea Medical Application </h1>
+				<h1>Welcome to the Apneea Monitoring System </h1>
 			</div>
 
 		</div>
@@ -13,11 +13,11 @@
 
 		<div class="list-group">
 
-			<div class="list-group-item" style=>
+			<div class="list-group-item">
 				<input type="text" class="form-control" ng-model="search.name"  placeholder="Search">
 			</div>
 
-			<div class="list-group-item row" ng-repeat="item in users | filter:search" >
+			<div class="list-group-item row" ng-repeat="item in users | filter:search track by item.name " >
 				<div class="col-xs-8">
 					{{item.name}}
 

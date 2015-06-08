@@ -56,9 +56,11 @@
 				Machines <i class="fa fa-refresh pull-right" ng-click="getMachines()"
 				style="cursor: pointer"></i>
 			</legend>
-
+			<div class="legend" >
+				<input type="text" class="form-control" ng-model="search.machine_id"  placeholder="Search">
+			</div>
 			<div class="list-group">
-				<div class="list-group-item row" ng-repeat="item in machines">
+				<div class="list-group-item row" ng-repeat="item in machines | filter:search">
 					<div class="col-xs-8">
 						{{item.machine_id}}
 						<br>
